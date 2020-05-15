@@ -1,0 +1,78 @@
+{
+    "artists":[
+        {
+            "name": "Bad Brains",
+            "id": 1
+        },
+        {
+            "name": "Radiohead",
+            "id": 2
+        }
+    ],
+
+    "albums": [
+        {
+            "name": "I Against I",
+            "id": 1, 
+            "artistId": 1
+        },
+        {
+            "name": "Rise",
+            "id": 2,
+            "artistId": 1
+        },
+        {
+            "name": "Pablo Honey",
+            "id": 3,
+            "artistId": 2
+        },
+        {
+            "name": "OK Computer",
+            "id": 4,
+            "artistId": 2
+        }
+    ],
+
+    "songs": [
+        {   
+            "name": "I Against I",
+            "id": 1,
+            "albumId": 1
+        },
+        {   
+            "name": "Re-Ignition",
+            "id": 2,
+            "albumId": 1
+        },
+        {   
+            "name": "Rise",
+            "id": 3,
+            "albumId": 2
+        },
+        {   
+            "name": "Coming in Numbers",
+            "id": 4,
+            "albumId": 2
+        },
+        {   
+            "name": "You",
+            "id": 5,
+            "albumId": 3
+        },
+        {   
+            "name": "Ripcord",
+            "id": 6,
+            "albumId": 3
+        },
+        {   
+            "name": "Paranoid Android",
+            "id": 7,
+            "albumId": 4
+        },
+        {   
+            "name": "Exit Music (For a Film)",
+            "id": 8,
+            "albumId": 4
+        }
+    ]
+}
