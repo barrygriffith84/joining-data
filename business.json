@@ -1,0 +1,74 @@
+{
+    "departments": [
+        {
+            "name": "Marketing",
+            "id": 1
+        },
+        {
+            "name": "IT",
+            "id": 2
+        }
+    ],
+    "employees": [
+        {
+            "name": "Joe Bob",
+            "id": 1,
+            "departmentId": 1
+        },
+        {
+            "name": "Jim Bo",
+            "id": 2,
+            "departmentId": 1
+        },
+        {
+            "name": "Billy Bob",
+            "id": 3,
+            "departmentId": 2
+        },
+        {
+            "name": "Ricky Jay",
+            "id": 4,
+            "departmentId": 2
+        }
+    ],
+    "computers": [
+        {
+            "id": 1,
+            "type": "Palm Pilot"
+        },
+        {
+            "id": 2,
+            "type": "Windows Surface Laptop"
+        },
+        {
+            "id": 3,
+            "type": "iPad"
+        },
+        {
+            "id": 4,
+            "type": "Chromebook"
+        }
+    ],
+    "employee-computers": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "computerId": 1
+        },
+        {
+            "id": 2,
+            "employeeId": 3,
+            "computerId": 2
+        },
+        {
+            "id": 3,
+            "employeeId": 4,
+            "computerId": 3
+        },
+        {
+            "id": 4,
+            "employeeId": 2,
+            "computerId": 4
+        }
+    ]
+}
